@@ -46,11 +46,17 @@ body{
     font-weight: 600;
 }
 
+.todo-list .form .form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .todo-list .form{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .todo-list .form input{
     width: 100%;
@@ -77,6 +83,8 @@ body{
     background-color: var(--green);
     color: #fff;
 }
+
+
 
 
 
